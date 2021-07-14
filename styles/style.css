@@ -1,0 +1,115 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* common styles  */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+main {
+  display: block;
+  width: 100%;
+}
+.container {
+  display: flex;
+  background-color: blue;
+  padding: 30px;
+}
+
+/* first-part  */
+
+.tournament-name h2 {
+  font-size: 60px;
+  margin-left: 167px;
+  margin-right: 91;
+  font-weight: 700;
+  color: white;
+}
+.tournament-name a {
+  width: 168px;
+  height: 44px;
+  text-decoration: none;
+  margin-left: 167px;
+  padding: 10px 24px;
+  color: whitesmoke;
+  background: #e02c6d;
+}
+.tournament-name a:hover {
+  background-color: darkslategray;
+}
+.in-span {
+  margin-left: 0 10px;
+}
+.tournament-banner img {
+  width: 556.01px;
+  height: 438px;
+  margin-left: 91px;
+  margin-right: 140px;
+}
+
+/* second-section */
+.container2 {
+  display: block;
+  margin-left: 70px;
+  margin-top: 70px;
+  /* width: 100%; */
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 27px;
+  grid-row-gap: 30px;
+  /* margin-left: 30px; */
+}
+
+.player {
+  width: 330px;
+  height: 474px;
+
+  padding: 15px;
+
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-photo img {
+  width: 300px;
+  height: 256px;
+}
+.player-name {
+  font-size: 28;
+  font-weight: 700;
+}
+.player-info p {
+  color: #6c6c6c;
+  width: 300px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* footer section  */
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 158px;
+}
+
+.footer-image img {
+  width: 483.87px;
+  height: 110px;
+}
+.footer-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 30px;
+  width: 170px;
+  height: 32px;
+}
+
+/* Media Queries */
+/* Mobile device */
+
+@media only screen and(max-width: 690px) {
+  .players {
+    background-color: red;
+  }
+}
